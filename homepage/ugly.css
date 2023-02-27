@@ -1,0 +1,100 @@
+body {
+    background-color: blue;
+    color: rgb(225, 225, 225);
+    font-family: sans-serif, Arial, Helvetica, sans-serif;
+}
+/*
+blue: #6CB6FF
+greyblue: #ADBAC7
+greyblue2: #CDD9E5
+
+darkBackground: #22272E
+brightBackground: #2D333B
+*/
+
+
+
+p {
+    margin-left: 16px;
+    font-size: 20pt;
+    color: greenyellow;
+    text-align: right;
+    font-family:fantasy;
+    line-height: 500%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: purple;
+    /* background-color: #2D333B; */
+    /* border: double; */
+    border-radius: 15px;
+    text-align: center;
+    width: fit-content;
+    padding: 0px 12px 0px 12px;
+    margin-top: 0.5em;
+}
+
+h1 {
+    font-size: 12pt;
+}
+
+h2 {
+    font-size: 16pt;
+}
+
+h3 {
+    font-size: 20pt;
+}
+
+a {
+    color: yellow;
+}
+
+li {
+    /* https://love2dev.com/blog/customize-bulleted-list/ */
+    list-style-image: url(images/pf.png);
+    margin-bottom:-15px;
+    padding-left: 35px;
+    text-align: center;
+}
+
+ul {
+    margin-left: 24px;
+    list-style: none;
+}
+
+/* https: //stackoverflow.com/questions/9067892/how-to-align-two-elements-on-the-same-line-without-changing-html */
+
+.sidebar {
+    color: pink;
+    height: 100%;
+    position: fixed;
+    /* z-index: 1; */
+    top: 0;
+    left: 0;
+    background-color: blue;
+    width: fit-content;
+}
+
+.me {
+    width: 256px;
+    height: auto;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.mainbody {
+    margin-left: 326px;
+}
+
+.t1 {
+    margin-top: 0px;
+    font-size: 24pt;
+    margin-left: 36px;
+}
+
+.li2 {
+    font-size: 18pt;
+    list-style-image: none;
+    list-style-type: square; 
+}

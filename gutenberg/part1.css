@@ -1,0 +1,135 @@
+body {
+    background-color: #22272E;
+    color: rgb(225, 225, 225);
+    font-family: sans-serif, Arial, Helvetica, sans-serif;
+
+    margin-left: 10%;
+    margin-right: 10%;
+}
+/*
+blue: #6CB6FF
+greyblue: #ADBAC7
+greyblue2: #CDD9E5
+
+darkBackground: #22272E
+brightBackground: #2D333B
+*/
+
+
+
+p {
+    font-size: 12pt;
+    color: #CDD9E5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #6CB6FF;
+    background-color: #2D333B;
+    margin: auto;
+    /* border: double; */
+    border-radius: 15px;
+    text-align: center;
+    width: fit-content;
+    padding: 0px 12px 0px 12px;
+    margin-top: 0.5em;
+}
+
+h1 {
+    font-size: 32pt;
+}
+
+h2 {
+    font-size: 25pt;
+}
+
+h3 {
+    font-size: 20pt;
+}
+
+a {
+    color: yellow;
+}
+
+.img-caption{
+    display: block;
+    text-align: center;
+    font-style: italic;
+}
+
+.license{
+    margin: 3em 3em;
+}
+
+/* 1 specific */
+
+.ph2, .ph4 {
+    text-align: center;
+    text-indent: 0;
+    font-weight: bold
+}
+
+p.dialog {
+    text-indent: -5%;
+    font-size: small;
+    margin-left: 5%;
+    margin-right: 0%;
+    text-align: left;
+}
+p.stage {
+    background-color: #2D333B;
+    text-indent: 0%;
+    font-size: small;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: left;
+    border: dotted;
+}
+
+/* 2 specific */
+
+pre {
+    color: #CDD9E5;
+}
+
+hr {
+    border: 1px solid #6CB6FF;
+    border-radius: 5px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+/* 3 specific */
+p.poem {
+    text-indent: 0%;
+    margin-left: 10%;
+    font-size: 90%;
+    margin-top: 1em;
+    margin-bottom: 1em
+    }
+p.letter {
+    text-indent: 0%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 1em;
+    margin-bottom: 1em
+    }
+p.center {
+    text-align: center;
+    text-indent: 0;
+    margin-top: 1em;
+    margin-bottom: 1em
+    }
+p.right {
+    text-align: right;
+    margin-right: 10%;
+    margin-top: 1em;
+    margin-bottom: 1em
+    }
+p.footnote {
+    font-size: 90%;
+    text-indent: 0%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 1em;
+    margin-bottom: 1em
+    }
