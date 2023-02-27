@@ -19,6 +19,10 @@ repository and (C) 2013 Abram Hindle visibile in the text.
 
 Code is licensed under the Apache 2.0 license.
 
+All .css files are licensed under the Apache 2.0 license, Junhyeon Cho. 
+
+All .html files are licensed under the CC-BY-SA 4.0 unported license, PROJECT Gutenberg. 
+
 # Required modifications to HTML files
 
 - commenting out original styles
